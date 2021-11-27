@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:#FBF4E9;
+
+}
+.title{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  font-size:3rem;
+  color:#152D35;
+}
+.container{
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.c_container{
+  border-style: solid;
+  border-width: 5px;
+  border-color:#000000;
+  width:300px;
+  height:400px;
+  margin:15px;
+  border-radius: 5%;
+  
+}
+.card_image{
+  width: 290px;
+  height: 190px;
+  object-fit: cover;
+  /* border: solid #000000; */
+  border-bottom: 5px solid #000000;
+  border-radius: 5% 5% 0 0;
+}
+.card_content{
+  text-align: center;
+  margin-top: 10px;
+}
+.name{
+  font-size:2em;
+  font-weight: bold;
+  color:#297F87
+
+   
+}
+.petname{
+  font-size:1.7em;
+  color:#444941
+
+}
+.details{
+  font-size:1.2em;
+  margin-top: 10px;
+}
